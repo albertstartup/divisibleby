@@ -1,0 +1,22 @@
+{
+  "name": "divisibleby",
+  "version": "1.0.0",
+  "description": "Check if a number is divisible by a number or an array of numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/albertstartup/divisibleby"
+  },
+  "keywords": [
+    "divisible"
+  ],
+  "author": "Albert Martinez <albertstartup@gmail.com> (http://albert.website)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4"
+  }
+}
