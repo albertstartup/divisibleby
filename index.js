@@ -10,8 +10,8 @@ function absRemainders(dividend, divisors) {
     });
 }
 
-function divisibleBy(dividend, divisors) {
+function divisibleby(dividend, divisors) {
   return sum(absRemainders(dividend, divisors)) === 0;
 }
 
-module.exports = divisibleBy;
+module.exports = divisibleby;
